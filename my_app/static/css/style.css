@@ -1,0 +1,60 @@
+/* Full-screen gradient background */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Register container with glassmorphism style */
+.register-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+label {
+    font-weight: 500;
+}
+
+input, select, textarea {
+    border-radius: 8px !important;
+}
+
+button[type="submit"] {
+    background-color: #6a11cb;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #4b0f9c;
+}
+
+a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}

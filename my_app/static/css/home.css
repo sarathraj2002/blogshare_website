@@ -1,0 +1,66 @@
+/* static/css/home.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+
+    justify-content: center;
+    display:flex;
+    height:100%;
+    align-items:center;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+    background-color: #ffffffcc;
+    backdrop-filter: blur(10px);
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 90%;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #ff6f91;
+}
+/* Base styles */
+.btn {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+/* Login Button Hover Effect */
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #0d6efd;
+    border: 2px solid #0d6efd;
+    transform: scale(1.05);
+}
+
+/* Custom Register Button Color */
+.btn-register {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+}
+
+/* Hover effect for Register Button */
+.btn-register:hover {
+    background-color: #ffffff;
+    color: #ff6b81;
+    border: 2px solid #ff6b81;
+    transform: scale(1.05);
+}
